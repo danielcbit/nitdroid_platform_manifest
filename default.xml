@@ -114,12 +114,12 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
 
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound"/>
+  <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="gitorious" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
 <!--
@@ -129,7 +129,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 -->
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" />
 
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
