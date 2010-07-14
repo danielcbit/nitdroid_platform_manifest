@@ -132,6 +132,7 @@
 -->
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" />
+  <project path="hardware/n900" name="hardware_n900" remote="gitorious" />
 
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
