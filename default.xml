@@ -119,7 +119,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" revision="master" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="frameworks/policies/base" name="platform_frameworks_policies_base" remote="gitorious" revision="froyo-release" />
 
   <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="gitorious" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
