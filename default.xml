@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="master"
+  <default revision="froyo-release"
            remote="korg" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
@@ -116,10 +116,10 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" revision="master" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="platform_frameworks_policies_base" remote="gitorious" revision="froyo-release" />
+  <project path="frameworks/policies/base" name="platform_frameworks_policies_base" remote="gitorious" />
 
   <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="gitorious" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -134,7 +134,9 @@
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="master" />
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="master" />
 
+<!--
   <project path="libcore" name="platform/libcore" revision="master" />
+-->
   <project path="ndk" name="platform/ndk" />
 
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
@@ -183,7 +185,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" revision="froyo-release" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
