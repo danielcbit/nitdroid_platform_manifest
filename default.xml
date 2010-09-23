@@ -66,6 +66,7 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/glib" name="platform_external_glib" remote="gitorious" revision="master" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
@@ -79,6 +80,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/libcmtspeechdata" name="platform_external_libcmtspeechdata" remote="gitorious" revision="master" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
@@ -87,6 +89,7 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
+  <project path="external/ofono" name="platform_external_ofono" remote="gitorious" revision="master" />
   <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
@@ -133,6 +136,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="master" />
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="master" />
+  <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="master" />
 
   <project path="libcore" name="platform/libcore" revision="master" />
   <project path="ndk" name="platform/ndk" />
