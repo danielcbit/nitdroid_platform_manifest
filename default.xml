@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="gingerbread"
+  <default revision="refs/tags/android-2.3.3_r1"
            remote="korg" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
@@ -14,31 +14,13 @@
 
   <project path="bionic" name="platform/bionic" />
 
-<!--
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
--->
-
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" revision="tools_r7" />
+  <project path="development" name="platform/development" />
+  <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n900" remote="gitorious" revision="gingerbread" />
 
-  <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n900" remote="gitorious" revision="froyo" />
-
-<!--
-  <project path="device/common" name="device/common" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream" name="device/htc/dream" />
-  <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/htc/sapphire" name="device/htc/sapphire" />
-  <project path="device/sample" name="device/sample" />
--->
-
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="froyo" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="froyo" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="korg" revision="master" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="korg" revision="master" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -102,7 +84,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf"/>
-  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
+  <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
@@ -120,34 +102,23 @@
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform_external_wpa_supplicant" remote="gitorious" revision="gingerbread" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="gitorious" revision="gingerbread" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-<!--
-  <project path="frameworks/policies/base" name="platform_frameworks_policies_base" remote="gitorious" revision="froyo" />
--->
 
   <project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="gitorious" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="gitorious" revision="gingerbread" />
-<!--
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="2c4ce96e814bbde60dba2a33df3a06dcf3734ca6" />
--->
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" />
+  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="gingerbread" />
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="gingerbread" />
   <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="master" />
 
-  <project path="libcore" name="platform/libcore" revision="master" />
+  <project path="libcore" name="platform/libcore" />
 
   <project path="ndk" name="platform/ndk" />
 
@@ -199,14 +170,11 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/media" name="platform/system/media"/>
   <project path="system/vold" name="platform_system_vold" remote="gitorious" revision="gingerbread" />
-<!--
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
--->
 </manifest>
