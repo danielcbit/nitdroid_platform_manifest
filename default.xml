@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="https://android.googlesource.com/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-2.3.7_r1" remote="korg" />
+  <default revision="refs/tags/android-4.0.1_r1" remote="korg" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
 
