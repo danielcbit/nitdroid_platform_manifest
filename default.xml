@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-4.0.3_r1" remote="aosp" />
+  <default revision="refs/tags/android-4.0.4_r1.1" remote="aosp" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
 
@@ -17,6 +17,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n9" remote="gitorious" revision="ics" />
   <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n900" remote="gitorious" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
@@ -117,6 +118,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -138,6 +140,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform_external_wpa_supplicant" remote="gitorious" revision="gingerbread" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
@@ -160,6 +163,7 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="gitorious" revision="ics" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="ics" />
+  <!--<project path="hardware/ti/sgx" name="platform-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" />-->
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="gingerbread" />
   <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="ics" />
 
