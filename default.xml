@@ -17,14 +17,10 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n9" remote="gitorious" revision="ics" />
   <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n900" remote="gitorious" revision="ics" />
+  <project path="vendor/nitdroid/n9" name="vendor_nitdroid_n9" remote="gitorious" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
-<!--
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="korg" revision="master" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="korg" revision="master" />
--->
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -158,7 +154,6 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
 
-  <!--<project path="hardware/alsa_sound" name="platform_hardware_alsa_sound" remote="gitorious" revision="master" />-->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="gitorious" revision="ics" />
   <project path="hardware/ril" name="platform/hardware/ril" />
