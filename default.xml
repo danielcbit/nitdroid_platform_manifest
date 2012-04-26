@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="review.source.android.com" />
-  <default revision="refs/tags/android-4.0.4_r1.1" remote="aosp" />
+  <default revision="refs/tags/android-4.0.4_r1.2" remote="aosp" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
 
@@ -155,7 +155,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
 
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="gitorious" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware/legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="ics" />
   <!--<project path="hardware/ti/sgx" name="platform-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" />-->
@@ -229,5 +229,5 @@
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media"/>
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform_system_vold" remote="gitorious" revision="gingerbread" />
+  <project path="system/vold" name="platform/system/vold" />
 </manifest>
