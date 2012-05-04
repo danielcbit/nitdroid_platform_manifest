@@ -155,7 +155,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
 
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware/legacy" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="ics" />
   <!--<project path="hardware/ti/sgx" name="platform-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" />-->
