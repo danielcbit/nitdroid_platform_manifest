@@ -5,7 +5,8 @@
            review="review.source.android.com" />
   <default revision="refs/tags/android-4.0.4_r2.1" remote="aosp" />
 
-  <remote  name="gitorious" fetch="git://gitorious.org/android-n900/"/>
+  <remote  name="gitorious" fetch="git://gitorious.org/android-n900/" />
+  <remote  name="android-goodies" fetch="git://gitorious.org/android-goodies/" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -161,6 +162,7 @@
   <!--<project path="hardware/ti/sgx" name="platform-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" />-->
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="gingerbread" />
   <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="ics" />
+  <project path="hardware/fakegps" name="fakegps" remote="android-goodies" revision="ics" />
 
   <project path="libcore" name="platform/libcore" />
 
