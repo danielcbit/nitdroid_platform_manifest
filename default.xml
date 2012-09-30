@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-4.1.1_r4" remote="aosp" sync-j="4" />
+  <default revision="refs/tags/android-4.1.1_r6" remote="aosp" sync-j="4" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/" />
   <remote  name="android-goodies" fetch="git://gitorious.org/android-goodies/" />
