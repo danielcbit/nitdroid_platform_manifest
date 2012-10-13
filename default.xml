@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-4.1.1_r6" remote="aosp" sync-j="4" />
+  <default revision="refs/tags/android-4.1.2_r1" remote="aosp" sync-j="4" />
 
   <remote  name="gitorious" fetch="git://gitorious.org/android-n900/" />
   <remote  name="android-goodies" fetch="git://gitorious.org/android-goodies/" />
@@ -19,7 +19,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="vendor/nitdroid/n900" name="vendor_nitdroid_n900" remote="gitorious" revision="ics" />
-  <project path="vendor/nitdroid/n9" name="vendor_nitdroid_n9" remote="gitorious" revision="ics" />
+  <project path="vendor/nitdroid/n9" name="vendor_nitdroid_n9" remote="gitorious" revision="jb" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
 
   <project path="external/aac" name="platform/external/aac" />
@@ -185,11 +185,11 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" /> <!--remote="gitorious" revision="ics" />-->
+  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="gitorious" revision="jb" />
   <!--<project path="hardware/ti/sgx" name="platform-ti-sgx" revision="ti_sgx_sdk-ddk_1.8" />-->
   <project path="hardware/n900" name="hardware_n900" remote="gitorious" revision="gingerbread" />
-  <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="ics" />
-  <project path="hardware/fakegps" name="fakegps" remote="android-goodies" revision="ics" />
+  <project path="hardware/ofono-ril" name="ofono-ril" remote="gitorious" revision="jb" />
+  <project path="hardware/fakegps" name="fakegps" remote="android-goodies" revision="jb" />
 
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
